@@ -14,7 +14,7 @@ header {
 
 header h1 {
     font-family: 'Outfit', sans-serif;
-    font-size: 6em;
+    font-size: 1em;
     width: 100%; /* Ensure the container spans the full viewport width */
     word-wrap: break-word; /* Ensure long text wraps within the container */
 }
