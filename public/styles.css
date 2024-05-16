@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282424;
+    color: white;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #282424;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.adsbygoogle {
+    display: block;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 728px; /* Adjust as needed */
+}
+
+@media (max-width: 600px) {
+    header, footer {
+        text-align: center;
+        padding: 0.5rem;
+    }
+    main {
+        padding: 1rem;
+    }
+}
