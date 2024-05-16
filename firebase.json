@@ -10,6 +10,22 @@
       {
         "source": "**",
         "destination": "/index.html"
+      },
+      {
+        "source": "/styles/**",
+        "destination": "/styles/:file?v=${timestamp}"
+      },
+      {
+        "source": "/scripts/**",
+        "destination": "/scripts/:file?v=${timestamp}"
+      }
+    ]
+  },
+  "functions": {
+    "predeploy": [
+      {
+        "hook": "hosting:postdeploy",
+        "function": "generateTimestamp"
       }
     ]
   }
